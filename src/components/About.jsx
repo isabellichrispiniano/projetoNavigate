@@ -12,7 +12,7 @@ export default props =>{
             <View style={{flex: 1,alignItems:'center', justifyContent: 'center'}}>
            <Text>Produtos</Text>
            <Button
-           title="Sobre"
+           title="Home"
            onPress={() => props.navigation.navigate('Home')}
            />
            </View>

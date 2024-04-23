@@ -15,10 +15,10 @@ export default () => {
         <SafeAreaView style={{ flex: 1 }}>
             <NavigationContainer>
                 <Stack.Navigator initialRouteName="Home">
-                    <Stack.Screen name="Home" component={HomeScreen} options={{title: 'Início'}} />
-                    <Stack.Screen name="Details" component={Details} options={{title: 'Detalhes'}} />
-                    <Stack.Screen name="Products" component={Products} options={{title: 'Produtos'}}/>
-                    <Stack.Screen name="About" component={About} options={{title: 'Sobre'}}/>
+                    <Stack.Screen name="Home" component={HomeScreen}/>
+                    <Stack.Screen name="Details" component={Details}  />
+                    <Stack.Screen name="Products" component={Products} />
+                    <Stack.Screen name="About" component={About} />
                 </Stack.Navigator>
             </NavigationContainer>
         </SafeAreaView>
